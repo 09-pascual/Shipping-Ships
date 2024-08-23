@@ -5,12 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "JSON Server",
-            "type": "python",
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
             "request": "launch",
-            "program": "json-server.py",
-            "justMyCode": true,
-            "console": "integratedTerminal"
+            "module": "json-server"
         }
     ]
 }
